@@ -1,0 +1,67 @@
+{
+  "name": "ImageClassification_Email",
+  "projectId": "8a90ce25-97bb-4d61-9ba4-64105dcc4d92",
+  "description": "Image Classification via ImageClassification Model",
+  "main": "Main.xaml",
+  "dependencies": {
+    "InternalLabs.OutLook_to_PDF.Activities": "[1.0.1-alpha.6]",
+    "UiPath.Excel.Activities": "[2.11.1-preview]",
+    "UiPath.Form.Activities": "[1.5.0]",
+    "UiPath.Mail.Activities": "[1.11.2-preview]",
+    "UiPath.MLServices.Activities": "[1.1.8]",
+    "UiPath.Persistence.Activities": "[1.2.2]",
+    "UiPath.System.Activities": "[21.8.0-preview]",
+    "UiPath.UIAutomation.Activities": "[21.8.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.7.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.8.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": true,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "8ce0586f-b5eb-4843-b3ac-0cc6a435d9c9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
